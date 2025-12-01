@@ -2,7 +2,7 @@ import pandas as pd
 import re
 
 # Load the two CSV files
-CSV_1 = r"C:\Users\aphiwut.j\Documents\Learning\resulting processing\2025-11-26T1522_Marks-GHC_25-T5_SIT40521_G-CKM.csv" #Files from CANVAS/ GOALS
+CSV_1 = r"C:\Users\aphiwut.j\Documents\Learning\resulting processing\file.csv" #Files from CANVAS/ GOALS
 CSV_2 = r"C:\Users\aphiwut.j\Documents\Learning\resulting processing\Book1.csv" #Files from Stars
 
 df1 = pd.read_csv(CSV_1)
@@ -78,3 +78,4 @@ final_output = merged_df[output_columns]
 final_output.to_csv("merged_final_scores_2.csv", index=False)
 
 print("✅ Merge completed successfully: merged_final_scores_2.csv")
+
