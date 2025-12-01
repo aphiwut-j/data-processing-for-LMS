@@ -116,10 +116,7 @@ data-processing-for-LMS/
 - All file paths are absolute by default. Change them as needed for your environment.
 - The scripts do not modify source files.
 
-## License
-
-[Insert your preferred license here, e.g. MIT.]
 
 ## Contact
 
-Open an issue in this repository for support or questions.
+aphiwut.jan@gmail.com
