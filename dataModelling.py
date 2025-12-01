@@ -4,7 +4,12 @@ CSV_1 = r"C:\Users\aphiwut.j\Documents\Learning\resulting processing\Book1.csv" 
 CSV_2 = r"" #Path to CSV from Canvas/GOALS
 
 # Load your merged CSV
-df = pd.read_csv(CSV_1)
+# df = pd.read_csv(CSV_1)
+df = pd.read_csv(
+    CSV_1,
+    keep_default_na=False,   # Do NOT convert default NA strings
+    na_values=[]             # No custom NA values
+)
 df.columns = df.columns.str.strip().str.replace("\ufeff", "")
 
 # print(df.columns.tolist())
